@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Sono", monospace;
+}
+
+.img-linea {
+  background-color: red;
+  height: 40px;
+  margin-right: 40px;
+}/*# sourceMappingURL=styles.css.map */
