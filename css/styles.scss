@@ -1,17 +1,40 @@
+$sectionBgcolor: #f0f8ff;
+
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Sono', monospace;
-}
+  font-family: "Montserrat", sans-serif;
+  font-family: "Sono", monospace;
 
-.img-linea {
-    background-color: red;
-    height: 40px;
-    // background-image: url("../img/Linea.png");
-    margin-right: 40px;
+  .section {
+    position: relative;
+    overflow: hidden;
+    height: 80px;
+  }
+
+  .section-link {
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .section-title {
+    font-size: x-large;
+    font-weight: 700;
+    background-color: $sectionBgcolor;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .section-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    z-index: 0;
+  }
 }

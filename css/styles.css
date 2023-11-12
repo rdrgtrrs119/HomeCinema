@@ -8,9 +8,27 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Sono", monospace;
 }
-
-.img-linea {
-  background-color: red;
-  height: 40px;
-  margin-right: 40px;
+body .section {
+  position: relative;
+  overflow: hidden;
+  height: 80px;
+}
+body .section-link {
+  text-decoration: none;
+  position: absolute;
+  z-index: 1;
+}
+body .section-title {
+  font-size: x-large;
+  font-weight: 700;
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-radius: 20px;
+}
+body .section-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: absolute;
+  z-index: 0;
 }/*# sourceMappingURL=styles.css.map */
