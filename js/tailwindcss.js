@@ -6,7 +6,7 @@ tailwind.config = {
   theme: {
     extend: {
       colors: {
-        clifford: "#da373d",
+        clifford: "#f0f8ff",
       },
     },
   },
