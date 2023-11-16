@@ -82,95 +82,108 @@
     <main class="tw-container tw-mx-auto">
         <div class="tw-container tw-p-6 tw-pl-6 tw-m-6 section tw-flex">
             <a href="#" class="section-link">
-                <h2 class="section-title">Detalles</h2>
+                <h2 class="section-title">Favoritas</h2>
             </a>
             <img src="img/Linea.png" class="section-img">
         </div>
-        <div class="tw-flex tw-justify-center">
-            <div
-                class="tw-flex tw-justify-center 
-                       tw-flex-col tw-items-center 
-                       tw-bg-white
-                       tw-rounded-lg
-                       md:tw-flex-row 
-                       md:tw-w-2/3
-                       hover:tw-bg-clifford 
-                       dark:tw-border-gray-700 
-                       dark:tw-bg-gray-800 
-                       dark:hover:tw-bg-gray-700">
-                <img class="tw-object-cover 
-                            tw-w-full 
-                            tw-rounded-2xl 
-                            tw-h-auto 
-                            md:tw-h-auto 
-                            md:tw-w-64  
-                            md:tw-rounded-lg"
-                    src="img/Peliculas/AjusteDeCuentas.jpg" alt="">
-                <div class="tw-flex 
-                            tw-flex-col 
-                            tw-justify-between 
-                            tw-p-4 
-                            tw-leading-normal">
-                    <div class="">                    
-                        <small class="tw-text-lg">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <i class="bi-play"></i>
-                                Reproducir trailer
-                            </a>
-                        </small>
-                    
-                    
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Movie Trailers</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="ratio ratio-16x9">
-                                            <iframe src="https://www.youtube.com/embed/rYY5QdEGEZw" class="YouTube" title="YouTube video"
-                                                allowfullscreen=""></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cerrar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                    
-                        <small>
-                            <i class="bi-clock-fill custom-icon"></i>
-                            100 Minutos
-                        </small>
-                    
-                        <small class="tw-ms-auto tw-font-bold">Valoración <span class="tw-font-thin">6.693</span></small>
-                        <small class="tw-ms-auto tw-font-bold">Año <span class="tw-font-thin">2023</span></small>
-                        <small class="tw-ms-auto tw-font-bold">Vista <span class="tw-font-thin">119K</span></small>
-                    
-                    </div>
-                    <h5 class="tw-mb-2 tw-text-2xl tw-font-bold tw-tracking-tight tw-text-gray-900 dark:tw-text-white">
-                        Ajuste de cuentas</h5>
-                    <p class="tw-mb-3 tw-font-normal tw-text-gray-700 dark:tw-text-gray-400">Here are the biggest
-                        El policía Jake Rosser presencia el impactante asesinato de su compañero por un misterioso asaltante. Mientras investiga
-                        la identidad del tirador, descubre una gran conspiración.</p>
-                    <small class="tw-font-bold">Genero: <span class="tw-font-thin tw-px-2">Acción</span><span class="tw-font-thin tw-px-2">Crimen</span><span
-                            class="tw-font-thin tw-px-2">Drama</span><span class="tw-font-thin tw-px-2">Suspense</span></small>
-                    <div>
-                        <a href="#" class="">
-                            <i class="bi-heart"></i>
+
+        <section class="tw-columns-1 
+                        md:tw-columns-2 
+                        lg:tw-columns-4
+                        tw-m-4">
+            <article class="tw-p-8 tw-flex tw-flex-col tw-justify-center">
+                <a href="detalle.html">
+                    <img class="tw-rounded-2xl" src="img/Peliculas/AjusteDeCuentas.jpg" alt="">
+                </a>
+                <div class="tw-flex tw-flex-row tw-justify-evenly tw-m-1">
+                    <div class="">
+                        <a href="detalle.html" class="tw-mt-1">
+                            <h5 class="">
+                                Ajuste de cuentas
+                            </h5>
                         </a>
+                        <p class="tw-mt-1">23/10/2023</p>
+                    </div>
+                    <div class="">
                         <a href="#" class="">
-                            <i class="bi-bookmark"></i>
+                            <i class="bi-heart-fill tw-text-red-500 tw-text-xl"></i>
+                        </a>
+                        <a href="#" class="tw-text-red-500 tw-text-xl">
+                            <i class="bi-bookmark-fill"></i>
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-
+            </article>
+            <article class="tw-p-8 tw-flex tw-flex-col tw-justify-center">
+                <a href="detalle.html">
+                    <img class="tw-rounded-2xl" src="img/Peliculas/Coco.jpg" alt="">
+                </a>
+                <div class="tw-flex tw-flex-row tw-justify-evenly tw-m-1">
+                    <div>
+                        <a href="detalle.html" class="tw-mt-1">
+                            <h5 class="">
+                                Coco
+                            </h5>
+                        </a>
+                        <p class="tw-mt-1">23/10/2023</p>
+                    </div>
+                    <div class="">
+                        <a href="#" class="">
+                            <i class="bi-heart-fill tw-text-red-500 tw-text-xl"></i>
+                        </a>
+                        <a href="#" class="tw-text-red-500 tw-text-xl">
+                            <i class="bi-bookmark-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="tw-p-8 tw-flex tw-flex-col tw-justify-center">
+                <a href="detalle.html">
+                    <img class="tw-rounded-2xl" src="img/Peliculas/FastX.jpg" alt="">
+                </a>
+                <div class="tw-flex tw-flex-row tw-justify-evenly tw-m-1">
+                    <div>
+                        <a href="detalle.html" class="tw-mt-1">
+                            <h5 class="">
+                                FastX
+                            </h5>
+                        </a>
+                        <p class="tw-mt-1">23/10/2023</p>
+                    </div>
+                    <div class="">
+                        <a href="#" class="">
+                            <i class="bi-heart-fill tw-text-red-500 tw-text-xl"></i>
+                        </a>
+                        <a href="#" class="tw-text-red-500 tw-text-xl">
+                            <i class="bi-bookmark-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="tw-p-8 tw-flex tw-flex-col tw-justify-center">
+                <a href="detalle.html">
+                    <img class="tw-rounded-2xl" src="img/Peliculas/FiveNights.jpg" alt="">
+                </a>
+                <div class="tw-flex tw-flex-row tw-justify-evenly tw-m-1">
+                    <div>
+                        <a href="detalle.html" class="tw-mt-1">
+                            <h5 class="">
+                                FiveNights
+                            </h5>
+                        </a>
+                        <p class="tw-mt-1">23/10/2023</p>
+                    </div>
+                    <div class="">
+                        <a href="#" class="">
+                            <i class="bi-heart-fill tw-text-red-500 tw-text-xl"></i>
+                        </a>
+                        <a href="#" class="tw-text-red-500 tw-text-xl">
+                            <i class="bi-bookmark-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
 
     <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
